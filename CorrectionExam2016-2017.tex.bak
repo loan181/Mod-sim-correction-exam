@@ -409,35 +409,16 @@
 				
 		\subsection*{3) simuler numériquement les trois premières étapes d'une trajectoire qui démarre dans $\bar{x}_m + \delta(0)$ où $\bar{x}_m$ est le plus petit des points d'équilibre du système et $\delta(0) = 0.0001 = 10^{-4}$}
 			\subsubsection*{Pour $E_1$}
-				\begin{gather*} 
-						\bar{x}_m = min(3 - \sqrt 6, 3 + \sqrt 6) = 3 - \sqrt 6 \approx 0.55051 \\
-						f_1(\bar{x}_m) = 0.55051
-				\end{gather*}
-
+			$\bar{x}_m = min(3 - \sqrt 6, 3 + \sqrt 6) = 3 - \sqrt 6 \approx 0.55051$ \\
 			Étapes : 
 			\begin{enumerate}
 				\item 
 					\begin{gather*} 
 						\bar{x}_m + 1 \cdot \delta (0) = 0.55061 \\
-						f_1(\bar{x}_m + 1 \cdot \delta (0)) = 0.55012
-					\end{gather*}
-				\item 
-					\begin{gather*} 
-						\bar{x}_m + 2 \cdot \delta (0) = 0.55071 \\
-						f_1(\bar{x}_m + 2 \cdot \delta (0)) = 0.549731
-					\end{gather*}
-				\item 
-					\begin{gather*} 
-						\bar{x}_m + 3 \cdot \delta (0) = 0.55081 \\
-						f_1(\bar{x}_m + 3 \cdot \delta (0)) = 0.549341
+						f'_1 = 
 					\end{gather*}
 			\end{enumerate}
-			
-			% Est-ce bien comme ça qu'on est cencé calculer ??
-			
-			
-		\subsection*{4) trouver par linéarisation l'équation de la dynamique de $\delta(k)$ et montrer qu'elle est compatible avec les résultats numériques des points 2 et 3.}
-				No idea
+
 				
 				
 				
